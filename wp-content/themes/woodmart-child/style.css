@@ -1,0 +1,115 @@
+/*
+ Theme Name:   Woodmart Child
+ Description:  Woodmart Child Theme
+ Author:       XTemos
+ Author URI:   http://xtemos.com
+ Template:     woodmart
+ Version:      1.0.0
+ Text Domain:  woodmart
+*/
+
+.site-content {
+    margin-bottom: 0px !important;
+}
+
+.text-footer-creategica {
+	width: 80%;
+    text-align: justify;
+}
+
+/* BEGIN: Estilos social networks footer */
+div.content-social-footer {
+	vertical-align: middle;
+    font-size: 0;
+}
+a.social-icon-footer {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    background-color: #d4d1d199;
+    display: inline-block;
+    margin: 7px;
+    text-align: center;
+    font-size: 0;
+}
+i.content-icon-footer {
+	font-size: 14px;
+    display: inline-block;
+    vertical-align: middle;
+    font-family: 'woodmart-font';
+    line-height: 28px;
+	color: #0a214f;
+}
+.social-vkontakte i:before {
+    content: "\f189";
+}
+.social-pinterest i:before {
+    content: "\f156";
+}
+.social-instagram i:before {
+    content: "\f163";
+}
+.social-twitter i:before {
+    content: "\f154";
+}
+.social-facebook i:before {
+    content: "\f180";
+}
+/* END: Estilos social networks footer */
+
+
+/* estilos de pagina de contacto */
+.spancing-title {
+	height: 8rem !important;
+}
+#content-img-form {
+	
+}
+#text-p-contact {
+	margin-top: 3rem;
+	color: #0a214f;
+}
+#content-form-contact {
+	padding: 6rem 6rem;
+}
+.content-fields {
+	padding: 2rem 1rem;
+	background-color: #fff;
+}
+.margin-fields {
+	margin: 1rem 0;
+}
+.content-buttom {
+	text-align: center;
+    margin-top: 1rem;
+}
+#textarea-fields {
+	min-height: 100px !important;
+}
+#term-of-services {
+	margin-left: -7px;
+    color: black;
+    cursor: pointer;
+}
+#btn-submit {
+    padding: 12px 30%;
+    background-color: #f75356;
+    color: #fff;
+    box-shadow: 3px 3px 3px 2px rgb(0 0 0 / 20%);
+    border-radius: 3px;
+}
+
+@media (max-width: 767.98px) {
+	.text-footer-creategica {
+		width: 100%;
+	}
+	#content-form-contact {
+    	padding: 2rem 2rem;
+	}
+	#spacing-contact {
+		height: 0 !important;
+	}
+	.subtitle-contact {
+		padding-top: 1rem;
+	}
+}
